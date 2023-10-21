@@ -1,0 +1,184 @@
+.mainClass {
+    height: 100vh;
+}
+
+.section1 {
+  
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section2 {
+    /* background-color: #2ecc71; Green color */
+    background-color: lightgray;
+    min-height: 100%;
+}
+
+.subbar {
+  padding: 40px;
+}
+
+.pagination_heading h1{
+    color: black ;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 30px;
+}
+
+.tabBar{
+    width: 100vh;
+    height: 50px;
+    background-color: red;
+}
+
+/* .btn-label{
+  width: 60px !important;
+  height: 30px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+} */
+
+.ASbtn{
+  width: 90px !important;
+  height: 30px !important;
+  font-size: 12px !important;
+  padding: 0px !important;
+  font-weight: bold !important;
+}
+
+.ISbtn {
+  width: 115px !important;
+  height: 30px !important;
+  font-size: 12px !important;
+  padding: 0px !important;
+  font-weight: bold !important;
+  background-color: purple !important;
+}
+
+.Sfield {
+  width: 180px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  text-align: center !important;
+}
+
+.Sbtn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  padding: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-width: 2px !important;
+}
+
+.Left_btn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+.CVbtn {
+  width: 110px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+  .navbar-default {
+    background-color: #FFF;
+ 
+  }
+  
+  /*main side bar*/
+  .msb {
+    min-height: 100%;
+    overflow-y: auto;
+    white-space: nowrap;
+ 
+    z-index: 1;
+    .navbar {
+      border: none;
+      margin-left: 0;
+      background-color: inherit;
+    }
+    .navbar-header {
+      width: 100%;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+    /* .navbar-nav {
+
+     
+    } */
+
+  }
+
+  .side-menu-container ul.nav.navbar-nav li{
+    margin-top: 15px;
+    width: 30vh;
+    padding: 10px;
+  }
+
+  .side-menu-container ul.nav.navbar-nav li:hover{
+    background-color: aliceblue;
+    color: grey;
+  }
+  .side-menu-container ul.nav.navbar-nav li ul.nav.navbar-nav li:hover{
+    background-color: aliceblue;
+    color: grey;
+  }
+  .side-menu-container ul.nav.navbar-nav li ul.nav.navbar-nav li{
+    margin-top: 15px;
+    width: 27vh;
+    padding: 10px;
+  }
+  .side-menu-container ul.nav.navbar-nav li a {
+    text-decoration: none; /* Remove underline */
+    color: grey; /* Change color to red */
+   
+  }
+
+  
+  
+
+  .failure{
+    background-color: red !important;
+    display: none !important;
+  }
+
+  .version-modal-header{
+    background-color: yellow !important;
+  }
+
+  .sales{
+    display: none;
+    padding: 30px 20px 20px;
+  }
+
+  .product{
+    display: none ;
+  }
+  .purchase{
+    display: none ;
+  }
+  .dashboard{
+    display: none ;
+  }
+
+  .dropdownbtn {
+    width: 80px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+    padding: 0px !important;
+    font-weight: bold !important;
+    border: 2px !important;
+  }
